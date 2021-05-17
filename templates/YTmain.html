@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>YouTube Front Page</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='MainStyle.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="model" align = "center">
+		<div id="model-elements">
+			Web Application using Flask
+		</div>
+		<h2>Youtube Comments Spam Detection App</h2>
+		
+	</div>
+	</header>
+
+	<div class="model-prediction" align = "center">
+
+		<form action="{{ url_for('YTcommentstest')}}" method="POST">
+		<p><b>Youtube Comment to be Analysed</b></p>
+		<textarea name="message" rows="10" cols="60" style="font-size: 14pt" placeholder="Enter the Comment here..."></textarea>
+		<br/>
+
+		<input type="submit" class="btn" value="Analyze">
+		<input type="reset" class="btn" value="Reset">
+	</form>
+		
+	</div>
+
+	
+	
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main Index Page</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='MainStyle.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="model" align = "center">
+		<div id="model-elements">
+			Web Application using Flask
+		</div>
+		<h2>Social Networks Spam Detection</h2>
+		
+	</div>
+	</header>
+
+	<div class="model-elements">
+<center>
+	<h3><b>Select the type of social spam you want to investigate :</b></h3>
+<form action="{{ url_for('SMS')}}" method="POST">
+                   <input type="submit" class="btn-attributes" value="SMS">
+</form>
+<form action="{{ url_for('Email')}}" method="POST">
+	               <input type="submit" class="btn-attributes" value="Email">
+</form>
+
+<form action="{{ url_for('YouTube')}}" method="POST">
+                   <input type="submit" class="btn-attributes" value="YouTube">
+</form>
+<form action="{{ url_for('Twitter')}}" method="POST">
+                   <input type="submit" class="btn-attributes" value="Twitter">
+</form>
+</center>
+	</div>
+
+	
+	
+
+</body>
+</html>

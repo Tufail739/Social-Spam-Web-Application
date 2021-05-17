@@ -1,0 +1,87 @@
+body{
+	padding: 0px;
+	background-color:#f4f3f3;
+	font-size:15px;
+	line-height:1.5;
+	font-family:Helvetica,sans-serif;;
+}
+
+.model{
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background:#03acf4;#35434a;
+	border-bottom:#448cff 3px solid;
+	padding-top:30px;
+	height:120px;
+	width:100%;
+}
+
+.main-header{
+			text-align:center;
+			background-color: blue;
+			height:150px;
+			width:100%;
+			margin:0px;
+}
+
+#model-elements{
+    margin: 10px;
+    font-size:30px;
+	float:center;
+	color: #fff;
+
+}
+
+header h2{
+	text-align:center;
+	color:#fff;
+
+}
+
+/* Main Index Page Button Styling */
+.btn-attributes {
+  background-color:#03acf4;
+  border: none;
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px ;
+  width: 20%;
+  border-radius: 2px;
+
+}
+
+
+.btn-attributes:hover {
+  background-color: #45a050;
+}
+
+/* Analyze and back Button Styling */
+.btn {
+  background-color: #03acf4;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px ;
+  width: 20%;
+  border-radius: 2px;
+  border: none;
+  color: white;
+
+}
+
+.btn:hover {
+  background-color: #45a050;
+}
+
